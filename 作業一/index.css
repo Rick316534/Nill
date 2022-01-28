@@ -1,0 +1,350 @@
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.center {
+    margin: 0 auto;
+}
+.height-175 {
+    height: 175px;
+}
+.container {
+    background-color: #EDEDED;
+}
+.header {
+    height: 180px;
+    background: #4C8F96;
+}
+.headbox {
+    padding-top: 60px;
+    max-width: 940px;
+}
+.logo {
+    float: left;
+    min-width: 270px;
+    height: 130px;
+    line-height: 130px;
+    background: url(./images/bg-logo.png);
+    font-size: 60px;
+    font-weight: bold;
+    color: #FFF;
+    text-align: center;
+}
+.menu {
+    float: right;
+    padding-top: 54px;
+}
+.menu li { 
+    display: inline-block;
+    margin-left: 14px;
+    padding: 0 15px;
+    height: 30px;
+    line-height: 33px;
+    background: url(./images/bg-nav-left.gif) 0 50% no-repeat, url(./images/bg-nav-right.gif)  100% 50% no-repeat;
+    color: #FFF;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.menu .selected {
+    background: url(./images/bg-nav-left-selected.gif) 0 50% no-repeat, url(./images/bg-nav-right-selected.gif)  100% 50% no-repeat;
+}
+.content {
+    max-width: 940px;
+}
+.sidebar {
+    margin-top: 60px;
+    box-sizing: border-box;
+    border: 2px solid #60B2BE;
+    border-radius: 4px;
+    height: 360px;
+    background: #FFF;
+}
+.sidebar .big-icon {
+    padding: 12% 0 0 48%;
+    box-sizing: border-box;
+    height: 100%;
+    background: url(./images/great-hairstyle.jpg) no-repeat;
+    line-height: 48px;
+    font-size: 31px;
+    font-weight: bold;
+    
+} 
+.hair-warp {
+    margin-top: 48px;
+}
+.hairstyle {
+    float: left;
+    margin-right: 20px;
+    padding-top: 5px;
+    box-sizing: border-box;
+    max-width: 220px;
+    height: 380px;
+    background: url(./images/frame.png) 50% 0 no-repeat;
+}
+.hairstyle:last-child {
+    margin-right: 0;
+}
+.hairstyle h2 {
+    margin: 33px 0 5px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.hairstyle p {
+    line-height: 24px;
+    font-size: 12px;
+}
+.icon1 {
+    background: url(./images/hairstyle17.jpg) 50% 0 no-repeat;
+}
+
+.icon2 {
+    background: url(./images/hairstyle18.jpg) 50% 0 no-repeat;
+}
+
+.icon3 {
+    background: url(./images/hairstyle19.jpg) 50% 0 no-repeat;
+}
+.icon4 {
+    background: url(./images/hairstyle20.jpg) 50% 0 no-repeat;
+}
+.content-last {
+    margin: 28px 0 36px;
+}
+.featured {
+    position: relative;
+    float: left;
+    padding: 5px 5px 5px 15px;
+    border: 5px solid #60B2BE;
+    border-radius: 4px;
+    box-sizing: border-box;
+    max-width: 460px;
+    height: 588px;
+    background-color: #FFF;
+}
+.featured-icon {
+    margin-top: 50px;
+    padding-left: 120px;
+    font-size: 21px;
+    height: 90px;
+    background: url(./images/featured.jpg) 0 50% no-repeat;
+}
+.featured h2 {
+    position: absolute;
+    top: -14px;
+    left: 15px;
+    width: 180px;
+    height: 47px;
+    line-height: 48px;
+    letter-spacing: 3px;
+    background: url(./images/bg-logo.png);
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+}
+.featured p {
+    margin-top: 24px;
+    line-height: 24px;
+    font-size: 12px;
+}
+.hairtext {
+    position: relative;
+    float: right;
+    max-width: 460px;
+}
+.hairtext-box1 {
+    height: 258px;
+    padding: 75px 15px 0;
+    border: 5px solid #60B2BE;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #529392;
+}
+.hairtext-box1 h2 {
+    position: absolute;
+    top: -9px;
+    left: 20px;
+    min-width: 180px;
+    height: 47px;
+    line-height: 49px;
+    letter-spacing: 2px;
+    background-image: url(./images/bg-logo.png);
+    color: #FFF;
+    text-align: center;
+    font-size: 21px;
+}
+.hairtext-box1 p {
+    font-size: 12px;
+    color: #FFF;
+    line-height: 24px;
+}
+.hairtext-box1 .mike {
+    padding-top: 16px;
+    text-align: right;
+    font-size: 18px;
+}
+.hairtext-box2 {
+    position: relative;
+    margin-top: 25px;
+    padding-right: 15px;
+    border: 5px solid #60B2BE;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 227px;
+    background-color: #529392;
+}
+.hairtext-box2 img {
+    position: absolute;
+    top: -13px;
+    left: -5px;
+}
+.hairtext-box2 p {
+    float: right;
+    padding-top: 35px; 
+    width: 220px;
+    line-height: 29px;
+    font-size: 16px;
+    color: #FFF; 
+}
+.footer {
+    min-height: 120px;
+    background-color: #4D9196;
+}
+.footer-box {
+    max-width: 940px;
+}
+.footer p {
+    float: left;
+    margin: 56px  0 0 36%;
+    color: #C6D8E3;
+    font-size: 12px;
+}
+.footer .imgs {
+    float: right;
+    margin: 30px 10px 0 0;
+    padding: 20px 0 0 29px;
+    box-sizing: border-box;
+    min-width: 190px;
+    height: 62px;
+    border-radius: 2px;
+    background-color: #397C80;
+}
+.footer img {
+    margin-right: 12px;
+}
+.footer .footer-img1:hover {
+    content: url(/images/icons/icon-twitter2-hover.png);
+}
+.footer .footer-img2:hover {
+    content: url(/images/icons/icon-facebook-hover.png);
+}
+.footer .footer-img3:hover {
+    content: url(/images/icons/googleplus-hover.png);
+}
+.footer .footer-img4:hover {
+    content: url(/images/icons/pinterest-hover.png);
+}
+
+@media screen and (max-width: 390px) {
+    .container {
+        margin: 0 auto;
+        max-width: 390px;
+    }
+    .header {
+        height: 100%;
+    }
+    .headbox {
+        margin: 0 auto;
+        padding-top: 0;
+        width: 100%;
+    }
+    .logo {
+        float: none;
+        max-width: 390px;
+        height: 65px;
+        line-height: 65px;
+        font-size: 35px;
+    }
+    .menu {
+        float: none;
+        padding-top: 0;
+        text-align: center;
+    }
+    .menu li { 
+        margin: 10px 0;
+        padding: 0 15px;
+        height: 30px;    
+    }    
+    .content {
+        max-width: 380px;
+    }
+    .sidebar {
+        margin-top: 10px;
+        padding: 2px;
+        width: 100%;
+        height: 490px;
+        font-weight: bold;
+    }
+    .sidebar .big-icon {
+        padding: 350px 75px 0;
+        height: 485px;
+        font-size: 18px;
+    } 
+    .hairstyle {
+        float: none;
+        margin-left: 80px;
+    }
+    .content-last {
+        margin: 28px 0;
+    }
+    .featured {
+        position: relative;
+        float: none;
+        margin-bottom: 20px;
+        padding: 5px;
+        max-width: 100%;
+        height: 100%;
+    }
+    .featured-box1 .featured-icon {
+        margin: 50px 0 0 10px;
+        padding-left: 120px;
+        box-sizing: border-box;
+        max-width: 380px;
+        background: url(./images/featured.jpg) 0 50% no-repeat;
+        font-size: 21px;
+    }
+    .hairtext {
+        float: none;
+        max-width: 380px;
+    }
+    .hairtext-box1 {
+        padding: 45px 15px 1px;
+        height: 100%;
+    }
+    .hairtext-box1 .mike {
+        padding-top: 16px;        
+    }
+    .hairtext-box2 {
+        height: 290px;
+    }
+    .hairtext-box2 p {
+        font-size: 12px;
+    }
+    .footer {
+        height: 160px;
+    }
+    .footer-box {
+        max-width: 380px;
+    }
+    .footer p {
+        float: none;
+        margin: 0;
+        padding: 20px 0 5px;
+        text-align: center;
+        font-size: 12px;
+    }
+    .footer .imgs {
+        float: none;
+        margin: 10px 92px 0;
+    }
+}

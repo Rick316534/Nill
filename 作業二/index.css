@@ -1,0 +1,48 @@
+html,
+body {
+    height: 100%;
+}
+.imgs img{
+    display: none;
+    cursor: pointer;
+}
+.clearfix:after {
+    content:'';
+    display:table;
+    clear:both;
+}
+.canvas { 
+    position: relative;
+    margin: 100px;
+    width: 500px;
+    height: 500px;
+}
+.canvas .imgbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.imgbox {
+    width: 1500px;
+}
+.canvas li {
+    float: left;
+    list-style: none;
+}
+.canvas img {
+    width: 500px;
+    height: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
