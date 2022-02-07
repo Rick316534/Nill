@@ -153,7 +153,7 @@ wrap.onmousedown = function (e)
     //滑鼠點擊且移動，判斷誰先動
     document.onmousemove = function (e) 
     {
-        if (downY - e.clientY > 0 && yFirst) {
+        if (downY - e.clientY < 0 && yFirst) {
             moveY = downY - e.clientY;
             wrap.style.bottom = moveY + "px";
             xFirst = false;
@@ -193,9 +193,9 @@ wrap.onmousedown = function (e)
             wrap.style.left = newLeft * windowWidth + 'px';
             dots.children[newLeft * -1].style = 'border: 1px solid #FFF;opacity: 1;';
         };
-        if (click ==true && moveY > 20) {
+        if (click ==true && moveY < -20) {
             close();
-        } else if (click ==true && moveY < 20) {
+        } else if (click ==true && moveY > -20) {
             wrap.style.bottom = 0;
         };
         click = false;
@@ -250,4 +250,3 @@ function close()
     //初始化高度
     wrap.style.bottom = 0;
 };
-

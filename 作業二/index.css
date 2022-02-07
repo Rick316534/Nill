@@ -44,7 +44,6 @@ body {
     text-decoration: none;
     cursor: pointer;
     color: #FFF;
-
 }
 .left {
     left: 0;
@@ -62,7 +61,6 @@ body {
     padding-bottom: 25px;
     max-width: 100%;
     height: auto;
-    
 }
 .canvas .dots .dot {
     float: left;
@@ -93,15 +91,3 @@ body {
     cursor: pointer;
     color: #FFF;
 }
-
-
-
-
-
-
-
-
-
-
-
-
