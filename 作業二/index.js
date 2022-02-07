@@ -1,5 +1,5 @@
 //圖片庫，增加圖片修改這邊即可
-let imgsUrl = ['./imgs/Eagle.jpeg', './imgs/Fox.jpeg', './imgs/NutmegMannikin.jpeg', './imgs/Rabbit.jpeg', "./imgs/Reeves'smuntjac.jpeg"];
+let imgsUrl = ['./imgs/Eagle.jpeg', './imgs/Fox.jpeg', './imgs/NutmegMannikin.jpeg', './imgs/Rabbit.jpeg', "./imgs/Reeves'smuntjac.jpeg", './imgs/Fox.jpeg'];
 
 //取得畫面寬高
 let windowWidth = document.body.clientWidth;
@@ -144,8 +144,8 @@ wrap.onmousedown = function (e)
     let warpLeft = parseInt(wrap.style.left);
     
     //誰先動
-    let xFirst =true ;
-    let yFirst =true ;
+    let xFirst = true ;
+    let yFirst = true ;
 
     //移動後的位置，移動的軸量
     let newX, moveX, moveY;
@@ -157,7 +157,7 @@ wrap.onmousedown = function (e)
             moveY = downY - e.clientY;
             wrap.style.bottom = moveY + "px";
             xFirst = false;
-        } else if (downX - e.clientX != 0 && xFirst){
+        } else if (downX - e.clientX != 0 && xFirst) {
             moveX = downX - e.clientX;
             newX = warpLeft - moveX;
             wrap.style.left = newX + "px";
